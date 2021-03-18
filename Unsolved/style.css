@@ -1,0 +1,14 @@
+* {
+}
+
+header {
+  background-color: grey;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container p {
+  width: 500px;
+}
