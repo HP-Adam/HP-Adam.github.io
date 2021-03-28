@@ -2,52 +2,121 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>A Peterman Portfolio</title>
-
     <link rel="stylesheet" type="text/css" href="./style.css" />
   </head>
 
   <body>
-    <header>
-      <h1>Student Bio</h1>
-    </header>
+    <div class="cover">
+      <header>
+        <p>NO. 01</p>
+        <nav>
+          <ul>
+            <li>
+              <a href="#about-me">About</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <img
+        src="./Images/Coderman-All.svg"
+        title="Adam Peterman as Coderman"
+        alt="Adam Peterman is the super hero Coder man"
+      />
+    </div>
 
     <div class="container">
-      <section id="main-bio">
-        <h2>Adam Peterman</h2>
+      <section id="about-me" class="about">
+        <h2>About Me</h2>
+        <p>
+          It started on a normal day like any other. Adam was enjoying his days
+          as a Plumbing and Mechanical Engineer - designing HVAC and plumbing
+          systems for commercial buildings. When not working, he would regularly
+          spend his free time playing video games or camping/hiking if the
+          weather was nice. But suddenly, everything changed... <br />
+          <br />
+          Adam was bit by the coding bug! He was consumed by the need to learn
+          web development and began making new applications in earnest. Rather
+          than let his new found powers go to waste, he donned the mantle of
+          Coderman and started his journey into the world of Full Stack
+          development.
+        </p>
+      </section>
 
+      <div class="meanwhile_box">MEANWHILE: PROJECTS I'VE MADE...</div>
+
+      <section id="projects" class="projects">
+        <a
+          class="projBox_1"
+          href="https://hp-adam.github.io/run-buddy/"
+          target="_blank"
+        >
+          <div class="projInside run_buddy">
+            <!-- <span class="box_text">Run Buddy</span> -->
+          </div>
+        </a>
+
+        <a
+          class="projBox_2"
+          href="http://beer-pair.herokuapp.com/"
+          target="_blank"
+        >
+          <div class="projInside beer_app">
+            <!-- <span class="box_text">Beer Search App</span> -->
+          </div>
+        </a>
+
+        <div class="projBox_3">
+          <div class="projInside coming_soon"></div>
+        </div>
+      </section>
+
+      <div class="speech_bubbles">
         <img
-          id="bio-image"
-          width="200px"
-          src="./Images/face.jpg"
-          alt="Adam Peterman"
+          class="speech_1"
+          src="./Images/SpeechBubble-helpus.svg"
+          alt="a distressed citizen calls out help us coder man"
         />
+        <img
+          class="speech_2"
+          src="./Images/SpeechBubble-reachme.svg"
+          alt="coder man replies you can reach me at the information below"
+        />
+      </div>
+
+      <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <nav>
+          <ul>
+            <li>
+              Email:
+              <a href="mailto:adamhpeterman@gmail.com"
+                >adamhpeterman@gmail.com</a
+              >
+            </li>
+            <li>Github: <a href="https://github.com/HP-Adam">HP-Adam</a></li>
+            <li>
+              LinkedIn:
+              <a href="https://www.linkedin.com/in/adam-peterman-689179b9/"
+                >Adam Peterman</a
+              >
+            </li>
+          </ul>
+        </nav>
       </section>
 
-      <p>
-        I am an up and coming front-end developer. I currenlty work as a
-        Mechanical and Plumbing Engineer at Wylie Engineering.
-      </p>
-
-      <section id="contact-info">
-        <h2>Contact Info</h2>
-        <ul>
-          <li>
-            <strong>Email:</strong>
-            <a href="mailto:adamhpeterman@gmail.com">adamhpeterman@gmail.com</a>
-          </li>
-          <li>
-            <strong>Github:</strong>
-            <a href="https://github.com/HP-Adam">HP-Adam</a>
-          </li>
-          <li>
-            <strong>LinkedIn:</strong>
-            <a href="https://www.linkedin.com/in/adam-peterman-689179b9/"
-              >Adam Peterman</a
-            >
-          </li>
-        </ul>
-      </section>
+      <img
+        class="dont_miss"
+        src="./Images/Dont Miss This.svg"
+        alt="Don't miss this. Catch Adam in the next issue where he creates new and exciting applications - boosting his team to SUPER heights!"
+      />
     </div>
   </body>
 </html>
